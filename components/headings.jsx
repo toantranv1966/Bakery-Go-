@@ -11,7 +11,7 @@ const Headings = () => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-    <Text style={styles.headerTitle}>Xem tất cả sản phẩm</Text>
+    <Text style={styles.headerTitle}>New Rivals</Text>
     <TouchableOpacity onPress={()=> navigation.navigate('New-Rivals')}>
     <Ionicons name="ios-grid" size={24} color={COLORS.primary} />
     </TouchableOpacity>

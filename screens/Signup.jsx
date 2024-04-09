@@ -77,7 +77,7 @@ const Signup = ({ navigation }) => {
     const register = async () => {
       setLoader(true);
       try {
-        const endpoint = 'http://10.0.1.36:3000/api/register';
+        const endpoint = 'http://localhost:3000/api/register';
         const data = inputs
         console.log(data);
   

@@ -24,7 +24,7 @@ const Details = ({ navigation }) => {
     const id = await AsyncStorage.getItem('id');
     console.log(id);
 
-    const response = await fetch('https://payment-server-production-869c.up.railway.app/stripe/stripe/create-checkout-session', {
+    const response = await fetch('https://paymentorders-production.up.railway.app/stripe/create-checkout-session', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -14,7 +14,6 @@ import ProductCardView from "../ProductViewCard";
 
 const ProductRow = () => {
   const { data, isLoading, error} = useFetch()
-  console.log(data)
   return (
     <View style={styles.container}>
       <View style={styles.cardsContainer}>

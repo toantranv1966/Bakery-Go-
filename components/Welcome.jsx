@@ -33,7 +33,7 @@ const Welcome = () => {
             style={styles.searchInput}
             value=""
             onPressIn={() => navigation.navigate("Search")}
-            placeholder="Hôm nay bạn chọn món gì?"
+            placeholder="What are you looking for?"
           />
       </View>
       

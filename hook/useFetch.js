@@ -10,7 +10,7 @@ const useFetch = () => {
         setLoading(true)
 
         try {
-            const response = await axios.get('http://10.0.1.36:3000/api/products/');
+            const response = await axios.get('http://localhost:3000/api/products/');
             setData(response.data);
             setLoading(false);
         } catch (error) {

@@ -21,16 +21,10 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.toan.tranv1966.prototype"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "35a7c72e-c7a1-4fd5-bee7-783960efacb5"
-      }
     }
   }
 }

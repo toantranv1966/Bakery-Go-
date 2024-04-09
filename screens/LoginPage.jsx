@@ -57,7 +57,7 @@ const LoginPage = ({ navigation }) => {
   const login = async () => {
     setLoader(true);
     try {
-      const endpoint = 'http://10.0.1.36:3000/api/login';
+      const endpoint = 'http://localhost:3000/api/login';
       const data = inputs
       console.log(data);
 
